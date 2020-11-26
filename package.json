@@ -1,0 +1,22 @@
+{
+  "name": "practica",
+  "version": "1.0.0",
+  "description": "practica mongo db",
+  "main": "server.js",
+  "scripts": {
+    "serve": "node server.js",
+    "tsc": "tsc",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "swagger-jsdoc": "^5.0.1",
+    "swagger-ui-express": "^4.1.5"
+  }
+}
